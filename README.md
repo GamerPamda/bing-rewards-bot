@@ -21,7 +21,6 @@ Before running the project, make sure you have the following installed:
 2. [Ollama](https://ollama.com/) (Ensure the Llama 3.1 model is downloaded by running: `ollama run llama3.1`)
 
 ## Setup & Installation
-
 1. Clone or download this repository to your computer.
 2. Install the required Python libraries:
    pip install pyautogui pyperclip ollama
