@@ -30,3 +30,8 @@ Before running the project, make sure you have the following installed:
    ollama run llama3.1
 (This is our machine's brain)
 4. Start the python code (It automaticly opens Ollama in the background so you dont have to open the app every single time and it closes after you close the program)
+
+
+<img width="234" height="371" alt="image" src="https://github.com/user-attachments/assets/070927c0-06b8-46cb-83fb-14c31929648c" />
+<img width="240" height="384" alt="image" src="https://github.com/user-attachments/assets/8bcbe2a1-6a6e-427c-945c-3f540566ee83" />
+
