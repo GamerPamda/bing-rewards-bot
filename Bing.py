@@ -160,15 +160,15 @@ class BingSearchGUI:
         if self.ollama_process and self.ollama_process.poll() is None:
             return
         if shutil.which("ollama") is None:
-            self.status_var.set("Ollama not found")
+            self.status_var.set("Ollama not found!")
             return
         try:
             self.status_var.set("Starting Ollama...")
             self.ollama_process = subprocess.Popen('start "Ollama" /min cmd /c ollama serve', shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             time.sleep(3)
-            self.status_var.set("Ollama ready in background")
+            self.status_var.set("Ollama is ready in the background!")
         except Exception:
-            self.status_var.set("Failed to start Ollama")
+            self.status_var.set("Failed to start Ollama!")
 
     def stop_ollama(self):
         try:
