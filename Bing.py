@@ -72,7 +72,7 @@ def get_ai_query(language: str = "tr") -> str:
 class BingSearchGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Bing Otomasyonu")
+        self.root.title("Bing Automation")
         self.root.geometry("240x350")
         self.root.attributes("-topmost", True)
         self.root.resizable(False, False)
